@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url("newiphone.webp");
+    background-size: cover;
+color: aliceblue;
+font-family: "Century";
+font-size: 20px;
+margin: 0;
+}
+header{
+    background-color:rgba(130, 153, 180,0.60);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0%;
+    }
+header a:hover{
+    color: black;
+}
+nav a{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+table,th,tr{
+font-size: 15px;
+}
+.contenedor2{
+    display: flex;
+    justify-content: center;
+}
+.img-1{
+    margin-right: 10px;
+}
+.img-2{
+    margin-left: 10px;
+}
+.img-3{
+    margin-left: 10px;
+}

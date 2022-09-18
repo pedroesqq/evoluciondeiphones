@@ -1,0 +1,170 @@
+<!--Morales Esquer Pedro, 5AMPr, 17 de Septiembre del 2022-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>La evolución de los iPhones</title>
+        <link rel="stylesheet" href="estilos2.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <div class="fst">            
+                <a href="#begin"></a><h2 class="titulopag">La Evolución de los iPhones</h2>
+            </div>
+            <nav>
+                <a href="index.html" class="nav-link">Volver a la página principal</a>
+            </nav>
+        </header>
+        <form action="" method="get">
+            <!--Mediante inputs, le damos origen al formulario, el cual sera encargado de recopilar los nombres y apellidos con el atributo de pattern, que nos ayudará a que no se acepten numeros o caracteres que no sean letras-->
+            <div class="formulario">
+                <P>Introduzca sus datos para enviarle información actualizada a su correo</P>
+                <label for="name">Nombre:</label>
+                    <br><input type="text" pattern="[A-Za-z]{1,15}" placeholder="Coloca tu Nombre">
+                <br><label for="name">Apellido Paterno:</label>
+                    <br><input type="text" pattern="[A-Za-z]{1,15}" placeholder="Coloca tu Apellido Paterno">
+                <br><label for="name">Apellido Materno:</label>
+                    <br><input type="text" pattern="[A-Za-z]{1,15}" placeholder="Coloca tu Apellido Materno">
+                <br><label for="name">Coloque su correo:</label>
+                    <br><input type="text" pattern="[A-Za-z]{1,15}" placeholder="Coloca tu correo"><br><br>
+                    <label for="cuatro">Selecciona el Sexo</label>
+                    <br><input type="radio" name="C1">F<br>
+                    <input type="radio" name="C1">M<br>
+                    <!--Mediante selects, le daremos al usuario a elegir entre el rango de dias del 1 al 31.-->
+                <p>Coloca tu fecha de nacimiento</p>
+                <label for="uno">Día</label><br>
+                <select name="día" id="uno">
+                    <option disabled selected>Selecciona un día</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+        
+                </select>
+                <!--Mediante selects, le daremos al usuario a elegir entre el rango de meses del enero a diciembre.-->
+                <br><label for="dos">Mes</label><br>
+                <select name="mes" id="dos">
+                    <option disabled selected>Selecciona un mes</option>
+                    <option>Enero</option>
+                    <option>Febrero</option>
+                    <option>Marzo</option>
+                    <option>Abril</option>
+                    <option>Mayo</option>
+                    <option>Junio</option>
+                    <option>Julio</option>
+                    <option>Agosto</option>
+                    <option>Septiembre</option>
+                    <option>Octubre</option>
+                    <option>Noviembre</option>
+                    <option>Diciembre</option>
+                </select>
+                <!--Mediante selects, le daremos al usuario a elegir entre el rango de años del 2000 al 2022.-->
+                <br><label for="tres">Año</label><br>
+                <select name="año" id="tres">
+                    <option disabled selected>Selecciona un año</option>
+                    <option>2000</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                    <option>2004</option>
+                    <option>2005</option>
+                    <option>2006</option>
+                    <option>2007</option>
+                    <option>2008</option>
+                    <option>2009</option>
+                    <option>2010</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                </select>
+                <!--LISTAS-->
+                <br><br><label for="estados">Escoge tu Estado:</label>
+                <input list="estados" name="estado" id="estado">
+                <datalist id="estados">
+                    <option value="Aguascalientes">
+                        <option value="Baja California">
+                        <option value="Baja California Sur">
+                        <option value="Campeche">
+                        <option value="Coahuila">
+                        <option value="Colima">
+                        <option value="Chiapas">
+                        <option value="Chihuahua">
+                        <option value="Durango">
+                        <option value="Distrito Federal">
+                        <option value="Guanajuato">
+                        <option value="Guerrero">
+                        <option value="Hidalgo">
+                        <option value="Jalisco">
+                        <option value="México">
+                        <option value="Michoacán">
+                        <option value="Morelos">
+                        <option value="Nayarit">
+                        <option value="Nuevo León">
+                        <option value="Oaxaca">
+                        <option value="Puebla">
+                        <option value="Querétaro">
+                        <option value="Quintana Roo">
+                        <option value="San Luis Potosí">
+                        <option value="Sinaloa">
+                        <option value="Sonora">
+                        <option value="Tabasco">
+                        <option value="Tamaulipas">
+                        <option value="Tlaxcala">
+                        <option value="Veracruz">
+                        <option value="Yucatán">
+                        <option value="Zacatecas">
+                </datalist>
+        </form>
+                <script>
+                    function mostrar_correcto(){
+                        alert("Sus datos han sido recopilados");
+                    }
+                    function refresh(){
+                        location.reload();
+                    }
+                </script>
+                <a href="index.html">
+                    <br><br><input type="button" value="Enviar información" onclick="mostrar_correcto()">
+                </a>
+                <input type="button" value="Intentar de nuevo" onclick="refresh()">
+
+        </form>        
+    </body>
+</html>
